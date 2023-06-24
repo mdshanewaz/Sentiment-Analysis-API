@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% load static %}
+    
+{% block title %}
+    {{"Sentiment-HOME"}}
+{% endblock title %}
+    
+{% block content %}
+<div class="row">
+    <div class="col-12 text-center">
+        <h3 class="display-5 my-5">Write your text to know the sentiment</h3>
+        <a class="btn btn-block btn-outline-light btn-lg mb-5 btn-block" href="{% url 'analyze' %}" type="button">Let's Go</a>
+    </div>
+</div>
+{% endblock %}
