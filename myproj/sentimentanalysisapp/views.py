@@ -7,7 +7,6 @@ from rest_framework.generics import ListAPIView
 from rest_framework.decorators import api_view
 from .models import Sentimenttb
 from .serializers import SentimentSerializer
-from setfit import SetFitModel
 
 # Create your views here.
 
